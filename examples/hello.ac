@@ -1,0 +1,21 @@
+# a first Acryme program
+ten = "Phong"
+diem = 8
+pnt("Hello", ten, "!")
+i diem >= 8:
+  pnt("Giỏi")
+els:
+  pnt("Chưa giỏi")
+
+alive = T
+hp = 100
+i hp > 0 & alive == T:
+  pnt("Alive")
+
+items = [1, 2, 3]
+fr item n items:
+  pnt(item)
+
+wh hp > 0:
+  hp -= 40
+  pnt("hp:", hp)
