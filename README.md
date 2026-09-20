@@ -41,19 +41,6 @@ immediately (variables persist across lines); end a line with `:` to
 start a block, keep typing it indented yourself, and a blank line
 runs the whole block. `exit` or Ctrl-D quits.
 
-### Without installing
-
-Not on PyPI yet, or just trying it locally? Clone/download this repo
-and run it straight from source with plain Python 3, no install step:
-
-```
-python3 -m acryme.cli rn examples/grade.ac
-```
-
-or install it from the local checkout with `pip install .` (or
-`pip install -e .` for an editable install while developing) to get
-the same `a` command as above.
-
 ## Keyword table
 
 | Acryme | Pyhn/Python | | Acryme | Pyhn/Python |
