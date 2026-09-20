@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acryme"
+version = "0.1.0"
+description = "Acryme -- write less. do more. A minimal Python-transpiled language."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["acryme", "language", "transpiler", "python", "dsl"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Interpreters",
+  "Topic :: Software Development :: Compilers",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/acryme"
+
+# This is what makes `pip install acryme` put an `a` command on PATH.
+[project.scripts]
+a = "acryme.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
