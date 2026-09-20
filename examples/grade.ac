@@ -1,0 +1,10 @@
+fn check(diem):
+  i diem >= 8:
+    pnt("Giỏi")
+  el diem >= 5:
+    pnt("Khá")
+  els:
+    pnt("Trung bình")
+
+fr i n range(3):
+  check(i + 6)
